@@ -21,7 +21,7 @@ const ProductListing = () => {
   }, []);
   console.log("Products: ", products);
   return (
-    <div className="ui grid container">
+    <div className="ui vertically padded grid container">
       <ProductComponent />
     </div>
   );
