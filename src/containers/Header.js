@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div className="ui fixed menu">
       <div className="ui container center">
-        <h2><Link to="/">FakeShop</Link></h2>
+        <h2>
+          <Link to="/">Discount eShop</Link>
+        </h2>
       </div>
     </div>
   );
